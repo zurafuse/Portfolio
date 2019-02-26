@@ -1,0 +1,9 @@
+{
+  "name": "zurafuse",
+  "version": "0.0.0",
+  "description": "zurafuse.com",
+  "main": "server.js",
+  "author": {
+    "name": "Timothy Horton"
+  }
+}
