@@ -3,7 +3,21 @@
   "version": "0.0.0",
   "description": "zurafuse.com",
   "main": "server.js",
-  "author": {
-    "name": "Timothy Horton"
+  "author": "Timothy Horton",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zurafuse/Portfolio.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zurafuse/Portfolio/issues"
+  },
+  "homepage": "https://github.com/zurafuse/Portfolio#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   }
 }

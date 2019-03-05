@@ -97,7 +97,7 @@ for (i = 0; i < $(".modBtn").length; i++){
 			modBody = "This is a web application that I created as a reward system for my children's behavior. Prizes and trophies can be awarded, and experiences points and stars are earned." + 
 			" I created this application in Node.js in an interface that might remind them of a video game. Eventually, I want to turn Honor Blast into a Learning Management System (LMS)." + 
 			" Visit the Github page at <a href='https://github.com/zurafuse/ExcellentSpirit/' target='_blank' style='color: black'>https://github.com/zurafuse/HonorBlast</a>.";
-			modFoot = "LINK: <a href='https://github.com/zurafuse/HonorBlast' target='_blank' style='color: white'>https://github.com/zurafuse/HonorBlast</a>";		
+			modFoot = "DEMO: <a href='http://honorblast-env.txrk8eppcp.us-east-1.elasticbeanstalk.com' target='_blank' style='color: white'>http://honorblast-env.txrk8eppcp.us-east-1.elasticbeanstalk.com</a>";		
 		}
 		else if ($(this).attr("id") === "mod_meme")
 		{
@@ -105,6 +105,12 @@ for (i = 0; i < $(".modBtn").length; i++){
 			modBody = "This is a very simple meme generator that I created while attending the Udacity Front End Web Developer course." + 
 				" It primarily uses JavaScript to update the divs.";
 			modFoot = "LINK: <a href='https://zurafuse.github.io/meme/' target='_blank' style='color: white'>https://zurafuse.github.io/meme/</a>";		
+		}
+		else if ($(this).attr("id") === "mod_mathgame")
+		{
+			modHead = "Math Adventure";
+			modBody = "This is a game that I created to teach my children the Multiplication tables. I used only JavaScript to create this game. See the code for this game <a href='https://github.com/zurafuse/Math-Adventure'>Here.</a>"
+			modFoot = "LINK: <a href='https://zurafuse.github.io/mathadventure/mathgame.html' target='_blank' style='color: white'>https://zurafuse.github.io/mathadventure/mathgame.html</a>";		
 		}
 		
 		$(".mod-head").html(modHead);
