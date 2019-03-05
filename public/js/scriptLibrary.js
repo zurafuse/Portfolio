@@ -96,7 +96,7 @@ for (i = 0; i < $(".modBtn").length; i++){
 			modHead = "HONOR BLAST Behavior Application";
 			modBody = "This is a web application that I created as a reward system for my children's behavior. Prizes and trophies can be awarded, and experiences points and stars are earned." + 
 			" I created this application in Node.js in an interface that might remind them of a video game. Eventually, I want to turn Honor Blast into a Learning Management System (LMS)." + 
-			" Visit the Github page at <a href='https://github.com/zurafuse/ExcellentSpirit/' target='_blank' style='color: black'>https://github.com/zurafuse/HonorBlast</a>.";
+			" Visit the Github page at <a href='https://github.com/zurafuse/honorblast/' target='_blank' style='color: black'>https://github.com/zurafuse/HonorBlast</a>.";
 			modFoot = "DEMO: <a href='http://honorblast-env.txrk8eppcp.us-east-1.elasticbeanstalk.com' target='_blank' style='color: white'>http://honorblast-env.txrk8eppcp.us-east-1.elasticbeanstalk.com</a>";		
 		}
 		else if ($(this).attr("id") === "mod_meme")
