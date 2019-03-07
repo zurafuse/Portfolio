@@ -5,7 +5,6 @@ const app = express();
 const httpController = require("./controller/httpController");
 
 app.use("/", express.static(__dirname + "/public"));
-
 app.set("view engine", "ejs");
 
 httpController(app);
