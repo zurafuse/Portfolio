@@ -1,0 +1,31 @@
+
+
+Game begins with character in forest in vicinity of sword. Grab the sword and then you can attack. Leave area and you are at world map.
+
+
+Items:
+Key
+Hammer
+Boat
+Plunger of justice
+
+Quests:
+Get key to unlock lock
+Get hammer to break stone barrier
+Cross river to get to dungeon
+Use plunger to defeat super toilet
+Rescue someone from cold showers
+Get enough gems to break through barrier
+
+Locations to place on map:
+
+Beginner's Forest
+Forest 2
+Forest 3
+Desert
+Ruins
+Plains
+town
+Dungeon 1
+Dungeon 2
+Dungeon 3

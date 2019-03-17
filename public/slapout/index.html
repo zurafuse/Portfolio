@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="style.css">
+		<title>VISIT SLAPOUT, ALABAMA</title>
+		<script src = "jquery-3.2.1.min.js"></script>
+		<script src = "knockout.js"></script>
+	</head>
+	<body>
+		<section class="my-container">
+			<button class="hide-button" data-bind="event: {click: toggleMenu}">HIDE MENU</button>
+			<nav class="side-items">
+				<div class="header-content">
+					<h2 class="header-text">SLAPOUT, ALABAMA</h2>
+					<h3 class="header-text" data-bind="text: headerTwo"></h3>
+				</div>
+				<div class="filter">
+					<p>SHOW:&nbsp;&nbsp;&nbsp;</p>
+					<select id="selector" data-bind="options: filter, optionsValue: 'name', value: filterSelect, event: {change: updateList}">
+					</select>
+				</div>
+				<ul class="list-menu" data-bind="foreach: locations">
+					<li class="each-item" data-bind="text: name, visible: visible, event: {click: $parent.clickLoc}"></li>
+				</ul>
+				<p>Articles provided courtesy of <a href="https://www.wikipedia.org/">Wikipedia.org.</a></p>
+				<div class="articles" data-bind="html: wikiContent">
+				</div>
+			</nav>
+			<div id="map" data-bind="text: mapText"></div>			
+		</section>
+		<script src = "script.js"></script>
+		<script onerror="model.displayError()" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUwaTvQ0rDE43m2CyDLjuwM7R_vEoyOb4&v=3&callback=initMap"></script>
+	</body>
+</html>

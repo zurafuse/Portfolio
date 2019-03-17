@@ -1,0 +1,38 @@
+BLOCKS:
+blue blocks (dungeon)
+brown blocks (world)
+Tree
+Rock
+stone/earth (world)
+stone/earth (cave)
+water
+
+BACKGROUNDS:
+White (dungeon)
+Grass (world)
+Sand (world)
+Black (cave)
+
+
+DUNGEONS:
+4 dungeons, each with a piece of the QuadCore
+
+
+WORLD:
+10 X 6 (60 rooms in all)
+Use Grid System. When going right or left, decrease or increment room # by 1. If going up or down, decrease or 
+increment by 10.
+
+
+
+OBJECTS:
+bridge
+QuadCore pieces
+
+
+
+ENEMIES:
+
+
+
+
