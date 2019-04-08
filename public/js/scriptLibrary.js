@@ -112,6 +112,12 @@ for (i = 0; i < $(".modBtn").length; i++){
 			modBody = "This is a game that I created to teach my children the Multiplication tables. I used only JavaScript to create this game. See the code for this game <a href='https://github.com/zurafuse/Math-Adventure'>Here.</a>"
 			modFoot = "LINK: <a href='/mathadventure/mathgame.html' target='_blank' style='color: white'>wwww.zurafuse.com/mathadventure/mathgame.html</a>";		
 		}
+		else if ($(this).attr("id") === "mod_blocky")
+		{
+			modHead = "Blocky's Adventure";
+			modBody = "This is a game created only in JavaScript. It is currently hosted in AWS. Use the arrow keys to move and space bar to jump, or if you are using a mobile device, use the on-screen buttons. See the code for this game <a href='https://github.com/zurafuse/Blocky'>Here.</a>"
+			modFoot = "LINK: <a href='http://blockygame.zurafuse.com.s3-website-us-east-1.amazonaws.com/' target='_blank' style='color: white'>http://blockygame.zurafuse.com.s3-website-us-east-1.amazonaws.com/</a>";		
+		}
 		
 		$(".mod-head").html(modHead);
 		$(".mod-body").html(modBody);
